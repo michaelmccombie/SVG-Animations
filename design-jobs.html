@@ -1,5 +1,5 @@
 <div id="animate-jobs">
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 328 184" xmlns:xlink="http://www.w3.org/1999/xlink" style="background:#EFF0F2">
+    <svg xmlns="http://www.w3.org/2000/svg" width="328" height="184" viewBox="0 0 328 184" xmlns:xlink="http://www.w3.org/1999/xlink" style="background:#EFF0F2">
         <defs>
             <rect id="path" width="280" height="20" rx="1" />
             <filter id="filter" width="200%" height="200%" x="-50%" y="-50%" filterUnits="objectBoundingBox">
@@ -67,11 +67,11 @@
                     <g class="head" transform="translate(175 16)">
                         <g class="rotate-up">
                             <circle class="eye-right" cx="61.5" cy="30.5" r="3.5" fill="#FFF"/>
-                            <path class="lid-right-bottom" fill="#4A4A4A" d="M58 34h9v5h-9z"/>
-                            <path class="lid-right-top" fill="#4A4A4A" d="M58 22h9v5h-9z"/>
+                            <path class="lid-right-bottom" opacity="0" fill="#4A4A4A" d="M58 34h9v5h-9z"/>
+                            <path class="lid-right-top" opacity="0" fill="#4A4A4A" d="M58 22h9v5h-9z"/>
                         </g>
                     </g>
-                    <path class="outline" fill="#EFF0F1" d="M159.662 126.662L181 148h-9l-21-21h-21l-21 21H88l99-99s1-21 21-21 21 21 21 21 0 59.185-51.555 74.445L202 148h-9l-22.78-22.78c-3.328.657-6.843 1.145-10.558 1.442zM0 0h328v184H0V0z"/>
+                    <path class="outline" opacity="0" fill="#EFF0F1" d="M159.662 126.662L181 148h-9l-21-21h-21l-21 21H88l99-99s1-21 21-21 21 21 21 21 0 59.185-51.555 74.445L202 148h-9l-22.78-22.78c-3.328.657-6.843 1.145-10.558 1.442zM0 0h328v184H0V0z"/>
                     <g class="head" transform="translate(175 16)">
                         <g class="rotate-up">
                             <circle class="sphere" cx="33" cy="33" r="33"/>
@@ -87,21 +87,11 @@
     </svg>
 </div>
 <style>
-/* Remove */
-div {
-  max-width: 328px;
-}
 
 /* Animations */
+
 * {
   transform-origin: 50% 50% 0;
-}
-
-/* Design Jobs - Animation */
-#animate-jobs svg .outline,
-#animate-jobs svg .lid-right-top,
-#animate-jobs svg .lid-right-bottom {
-  opacity: 0;
 }
 
 /* Desing Jobs - Oriole's Right Eye */
